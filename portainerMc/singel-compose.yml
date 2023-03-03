@@ -14,6 +14,7 @@ services:
       VERSION: ${VERSION:-LATEST}
       TYPE: ${TYPE:-VANILLA}
       MODE: ${GAMDEMODE:-SURVIVAL}
+      SEED: ${SEED}
       RCON_PASSWORD: ${RCON_PASSWORD:-minecraft}
     ports:
       - "${PORT:-25565}:25565"
